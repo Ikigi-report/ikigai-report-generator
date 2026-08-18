@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a reproducible product or documentation problem.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include real birth data, generated report content, credentials, or account information."
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the problem and expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Use fictitious input only.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, operating system, command output, or deployment context.

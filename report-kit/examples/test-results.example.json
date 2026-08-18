@@ -1,0 +1,20 @@
+{
+  "tests": {
+    "big_five": {
+      "result": "Paste the provider's factor and facet summary here",
+      "interpretation": "Keep the provider's wording concise; do not add conclusions the original test does not support."
+    },
+    "via": {
+      "result": "Paste the ranked top strengths here",
+      "interpretation": "Example: Top strengths supplied from the completed VIA report."
+    },
+    "wdq": {
+      "result": "Paste the strongest work-condition scores or a concise summary here",
+      "interpretation": "Use the result to set project and role conditions, not an identity label."
+    },
+    "cbi": {
+      "result": "Paste personal, work-related and client-related burnout scores here",
+      "interpretation": "Use this as a repeatable strain baseline; it is not a diagnosis."
+    }
+  }
+}

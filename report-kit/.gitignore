@@ -1,0 +1,16 @@
+.venv/
+.build.html
+*.pdf
+my-report.md
+__pycache__/
+.DS_Store
+
+# Ephemeris data downloaded at runtime by jyotishganit/skyfield
+*.bsp
+hip_main.dat
+
+# Partial ephemeris downloads (skyfield leaves these behind if interrupted)
+*.download
+
+# ...but the worked example PDF is committed on purpose
+!examples/*.pdf
